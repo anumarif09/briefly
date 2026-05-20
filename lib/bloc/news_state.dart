@@ -18,4 +18,8 @@ class NewsError extends NewsState {
   NewsError(this.message);
 }
 
+class GeminiNewsLoaded extends NewsState {
+  final String summary;
 
+  GeminiNewsLoaded(this.summary);
+}
