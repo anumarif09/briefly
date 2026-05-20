@@ -19,7 +19,6 @@ The application fetches and displays concise tech news summaries while maintaini
 * Pull-to-Refresh Support
 * Responsive UI
 * Clean Folder Structure
-* Additional Remote Data Source Integration
 
 ---
 
@@ -149,36 +148,35 @@ Through this project we learned:
 
 This project successfully demonstrates the integration of AI-powered news summarization into a Flutter application while maintaining scalable architecture using Bloc and Repository Pattern.
 
-
 # Screenshots
 
 ## Home Screen
 
-![Home Screen](screenshots/Tech.png.jpeg)
+![Home Screen](screenshots/tech.png)
 
 ---
 
 ## Bloc Architecture
 
-![Bloc Architecture](screenshots/Code Architecture.png)
+![Bloc Architecture](screenshots/code_architecture.png)
 
 ---
 
 ## Code Screenshot
 
-![Code Screenshot](screenshots/code screenshot.png)
+![Code Screenshot](screenshots/code_screenshot.png)
 
 ---
 
 ## Gemini API Key Setup
 
-![Gemini API](screenshots/Gemini Api key.png)
+![Gemini API](screenshots/gemini_api_key.png)
 
 ---
 
 ## Postman API Testing
 
-![Postman Testing](screenshots/postman screenshot.png)
+![Postman Testing](screenshots/postman_screenshot.png)
 
 ---
 
