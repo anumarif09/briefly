@@ -35,30 +35,31 @@ The application fetches and displays concise tech news summaries while maintaini
 # Architecture
 
 The project follows a layered architecture:
-
 lib/
 │
 ├── bloc/
-│ ├── news_bloc.dart
-│ ├── news_event.dart
-│ └── news_state.dart
+│   ├── news_bloc.dart
+│   ├── news_event.dart
+│   └── news_state.dart
 │
 ├── data/
-│ ├── datasources/
-│ │ ├── news_remote_data_source.dart
-│ │ └── gemini_remote_data_source.dart
-│ │
-│ ├── models/
-│ │ └── news_item.dart
-│ │
-│ └── repositories/
-│ └── news_repository.dart
+│   ├── datasources/
+│   │   ├── news_remote_data_source.dart
+│   │   └── gemini_remote_data_source.dart
+│   │
+│   ├── models/
+│   │   └── news_item.dart
+│   │
+│   └── repositories/
+│       └── news_repository.dart
 │
 ├── presentation/
-│ ├── screens/
-│ └── widgets/
+│   ├── screens/
+│   └── widgets/
 │
 └── main.dart
+```
+
 
 ---
 
@@ -180,6 +181,3 @@ This project successfully demonstrates the integration of AI-powered news summar
 
 ---
 
-## Postman Response
-
-![Postman Response](screenshots/Postman.png)
